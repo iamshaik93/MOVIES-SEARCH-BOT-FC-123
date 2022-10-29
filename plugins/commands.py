@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 @Client.on_message(filters.command("start"))
 async def start(bot, cmd):
     usr_cmdall1 = cmd.text
-    if usr_cmdall1.startswith("/start subinps"):
+    if usr_cmdall1.startswith("/start ayita_p_s"):
         if AUTH_CHANNEL:
             invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
             try:
@@ -67,8 +67,8 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9'),
-                        InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2')
+                        InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/mx_networks'),
+                        InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/mx_networks')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,8 +100,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(" 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/+AMHw_K1wvOM3MTU9"),
-                        InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2'),
+                        InlineKeyboardButton(" 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ", url="https://t.me/mx_networks"),
+                        InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/mx_networks'),
                         InlineKeyboardButton(" 𝙰𝚋𝚘𝚞𝚝 ", callback_data="about")
                     ],
                     [
@@ -194,7 +194,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9')          
+            InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/mx_networks')          
         ]
         ]
     await message.reply(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Search010Bot'></a>𝙵𝙲 𝙱𝚘𝚃</b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/albintko'>𝙰𝚕𝚋𝚒𝚗 </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://t.me/albintko'>𝙵𝙲 𝙱𝚘𝚃</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
