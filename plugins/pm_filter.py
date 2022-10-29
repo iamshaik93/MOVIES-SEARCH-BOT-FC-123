@@ -126,7 +126,7 @@ async def group(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=ayitap_s_-_-_-_{file_id}")]
                 )
         else:
             return
@@ -288,7 +288,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [                
-                    InlineKeyboardButton('𝙵𝙲 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+AMHw_K1wvOM3MTU9')                  
+                    InlineKeyboardButton('𝙵𝙲 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/mx_networks')                  
                 ]
                 ]
             await query.message.edit(text="<b>╭━━━━━━━━━━━━━━━➣</b>\n<b>┣⪼ 𝙼𝚈 𝙽𝙰𝙼𝙴 ›› <a href='https://t.me/Movie_Search_fcBot'>𝙵𝙲 𝙱𝙾𝚃</a></b>\n<b>┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ›› <a href='https://t.me/albintko/'>Albin </a></b>\n<b>┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 ›› <a href='https://t.me/albintko'>Click</a></b>\n<b>┣⪼ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ›› 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>\n<b>┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 ›› 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>\n<b>┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 ›› 𝙿𝚈𝚃𝙷𝙾𝙽</b>\n<b>╰━━━━━━━━━━━━━━━➣</b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -310,7 +310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                 [                
-                    InlineKeyboardButton('𝙵𝙲 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                    InlineKeyboardButton('𝙵𝙲 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/mx_networks')
                 ]
                 ]
                 
@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                 [                
-                    InlineKeyboardButton('𝙵𝙲 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/+AMHw_K1wvOM3MTU9')                  
+                    InlineKeyboardButton('𝙵𝙲 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/mx_networks')                  
                 ]
                 ]
                 
