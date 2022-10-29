@@ -17,7 +17,7 @@
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Samantha-a/MOVIES-SEARCH-BOT-FC)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/iamshaik93/MOVIES-SEARCH-BOT-FC-123)
 ### Hard Way
 
 ```bash
